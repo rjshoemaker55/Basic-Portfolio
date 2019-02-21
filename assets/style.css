@@ -38,6 +38,8 @@ h1 {
   text-decoration: none;
 }
 
+
+/* NAV BAR BEGINS HERE */
 #nav {
   list-style-type: none;
   margin-left: 665px;
@@ -69,6 +71,7 @@ nav a:hover {
   font-weight: bold;
   background-color: #f4f4f4;
 }
+/* NAV BAR ENDS HERE */
 
 #aboutMe {
   clear: both;
@@ -108,7 +111,6 @@ img {
 }
 
 footer {
-  color: lightgray;
   background-color: #666;
   width: 100%;
   padding-top: 40px;
@@ -117,4 +119,8 @@ footer {
   border-top: 8px solid #00887a;
   position: absolute;
   bottom: 0px;
+}
+
+footer p {
+  color: lightgray;
 }
